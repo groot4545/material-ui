@@ -1,8 +1,6 @@
 import React from "react";
-import "./App.css";
+import Container from "@material-ui/core/Container";
 
-function App() {
-  return <div></div>;
-}
+const App = () => <Container maxWidth="lg"></Container>;
 
 export default App;
